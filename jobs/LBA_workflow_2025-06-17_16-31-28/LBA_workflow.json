@@ -1,0 +1,31 @@
+{
+  "technologies": [
+    "Data_Weather_API",
+    "Data_SAP_inventory",
+    "AWS_SageMaker",
+    "AWS_QuickSight",
+    "AWS_DataPipeline",
+    "AZURE_LogicApps",
+    "AWS_Backup"
+  ],
+  "use_case": "Demand Forecasting process using 5 technologies",
+  "renamed_technologies": {
+    "AWS_DataPipeline": "Data Integration Workflow",
+    "AWS_QuickSight": "Forecasting Dashboard",
+    "AWS_SageMaker": "Forecasting Model Builder",
+    "Data_SAP_inventory": "Inventory Management System",
+    "Data_Weather_API": "Weather Data Source"
+  },
+  "optimal_order": [
+    "Data_Weather_API",
+    "Data_SAP_inventory",
+    "AWS_SageMaker",
+    "AWS_DataPipeline",
+    "AWS_QuickSight"
+  ],
+  "environment": "saas_dev",
+  "user_code": "LBA",
+  "folder_name": "DEMGEN_VB",
+  "application": "DMO-GEN",
+  "sub_application": "TEST-APP"
+}
